@@ -37,16 +37,31 @@ body {
 	font-family: Tungsten;
 	font-size: 40px;
 	position: relative;
-	bottom: 20px;
+	bottom: 0px;
 	left: 50px;
+	line-height: 0.9;
 }
 #net {
 	color: white;
 	font-family: Tungsten;
 	font-size: 40px;
 	position: relative;
-	left: 280px; 
-	bottom: 165px
+	left: 50px;
+	bottom: -15px;
+	line-height: 0.9;
+}
+#winsetup {
+	color: white;
+	font-family: Tungsten;
+	font-size: 40px;
+	position: relative;
+	bottom: 502px;
+	left: 400px;
+	line-height: 0.9;
+}
+a {
+	color: inherit;
+	text-decoration: none;
 }
 #scrshots {
 	color: white;
@@ -63,7 +78,7 @@ body {
 	font-size: 25px;
 	font-family: Tungsten;
 	position: relative;
-	left: -180px;
+	left: -148px;
 	bottom: -40px;
 	width: 120px;
 	height: 40px;
@@ -73,8 +88,8 @@ body {
 }
 #btnWinDownload:hover {
 	background-color: transparent;
-	color: darkred;
-	border: 2px solid darkred;
+	color: white;
+	border: 2px solid white;
 }
 #btnNetDownload {
 	margin: 0;
@@ -83,8 +98,8 @@ body {
 	font-size: 25px;
 	font-family: Tungsten;
 	position: relative;
-	left: -125px;
-	bottom: 125px;
+	left: 50px;
+	bottom: 70px;
 	width: 120px;
 	height: 40px;
 	background-color: black;
@@ -92,6 +107,26 @@ body {
 	border: 2px solid black;
 }
 #btnNetDownload:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+#btnSetupDownload {
+	margin: 0;
+	padding: 0;
+	border-radius: 15px;
+	font-size: 25px;
+	font-family: Tungsten;
+	position: relative;
+	left: -125px;
+	bottom: -40px;
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+#btnSetupDownload:hover {
 	background-color: transparent;
 	color: white;
 	border: 2px solid white;
