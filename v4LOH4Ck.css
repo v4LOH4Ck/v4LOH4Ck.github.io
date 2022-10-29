@@ -1,0 +1,98 @@
+@font-face { font-family: Tungsten; src: url('fonts\\tungstenBold.ttf'); }
+@font-face { font-family: Valorant; src: url('fonts\\valoRANT.ttf'); }
+@font-face { font-family: DIN Next; src: url('fonts\\dinNextLTProRegular.ttf'); }
+body {
+	background-image: url('https://whatifgaming.com/wp-content/uploads/2021/10/Digidro-1024x576.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+#title {
+	color: white;
+	font-family: Tungsten;
+	font-size: 60px;
+	position: relative;
+	bottom: 0px;
+	left: 50px;
+}
+#p1 {
+	color: white;
+	font-family: DIN Next;
+	font-size: 20px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
+}
+#bottomtext {
+	color: white;
+	font-family: DIN Next;
+	font-size: 15px;
+	position: relative;
+	bottom: 0px;
+	left: 50px;
+}
+#win {
+	color: white;
+	font-family: Tungsten;
+	font-size: 40px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
+}
+#net {
+	color: white;
+	font-family: Tungsten;
+	font-size: 40px;
+	position: relative;
+	left: 280px; 
+	bottom: 165px
+}
+#scrshots {
+	color: white;
+	font-family: Tungsten;
+	font-size: 40px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
+}
+#btnWinDownload {
+	margin: 0;
+	padding: 0;
+	border-radius: 15px;
+	font-size: 25px;
+	font-family: Tungsten;
+	position: relative;
+	left: -180px;
+	bottom: -40px;
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+#btnWinDownload:hover {
+	background-color: transparent;
+	color: darkred;
+	border: 2px solid darkred;
+}
+#btnNetDownload {
+	margin: 0;
+	padding: 0;
+	border-radius: 15px;
+	font-size: 25px;
+	font-family: Tungsten;
+	position: relative;
+	left: -125px;
+	bottom: 125px;
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+#btnNetDownload:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
