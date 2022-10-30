@@ -4,7 +4,7 @@
 body {
 	background-image: url('https://i.pinimg.com/originals/e5/2d/57/e52d573ea72014060136bea750762d6e.png');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1920px;
 	background-attachment: fixed;
 	overflow-x: hidden;
 }
@@ -88,8 +88,8 @@ a {
 }
 #btnWinDownload:hover {
 	background-color: transparent;
-	color: white;
-	border: 2px solid white;
+	color: darkred;
+	border: 2px solid darkred;
 }
 #btnNetDownload {
 	margin: 0;
@@ -108,8 +108,8 @@ a {
 }
 #btnNetDownload:hover {
 	background-color: transparent;
-	color: white;
-	border: 2px solid white;
+	color: mediumpurple;
+	border: 2px solid mediumpurple;
 }
 #btnSetupDownload {
 	margin: 0;
@@ -128,6 +128,6 @@ a {
 }
 #btnSetupDownload:hover {
 	background-color: transparent;
-	color: white;
-	border: 2px solid white;
+	color: darkred;
+	border: 2px solid darkred;
 }
